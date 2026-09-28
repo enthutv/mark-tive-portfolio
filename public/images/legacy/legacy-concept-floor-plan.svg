@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Legacy Commercial Building conceptual floor plan</title>
+  <desc id="desc">Portfolio illustration showing assumed ground and second floor arrangements for estimating demonstration only.</desc>
+  <rect width="1600" height="1000" fill="#071a32"/>
+  <g stroke="#16446a" stroke-width="1" opacity=".45">
+    <path d="M0 40H1600M0 80H1600M0 120H1600M0 160H1600M0 200H1600M0 240H1600M0 280H1600M0 320H1600M0 360H1600M0 400H1600M0 440H1600M0 480H1600M0 520H1600M0 560H1600M0 600H1600M0 640H1600M0 680H1600M0 720H1600M0 760H1600M0 800H1600M0 840H1600M0 880H1600M0 920H1600M0 960H1600"/>
+    <path d="M40 0V1000M80 0V1000M120 0V1000M160 0V1000M200 0V1000M240 0V1000M280 0V1000M320 0V1000M360 0V1000M400 0V1000M440 0V1000M480 0V1000M520 0V1000M560 0V1000M600 0V1000M640 0V1000M680 0V1000M720 0V1000M760 0V1000M800 0V1000M840 0V1000M880 0V1000M920 0V1000M960 0V1000M1000 0V1000M1040 0V1000M1080 0V1000M1120 0V1000M1160 0V1000M1200 0V1000M1240 0V1000M1280 0V1000M1320 0V1000M1360 0V1000M1400 0V1000M1440 0V1000M1480 0V1000M1520 0V1000M1560 0V1000"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="70" y="70" fill="#c9a65b" font-size="18" font-weight="700" letter-spacing="3">MRK CONSTRUCTION / PORTFOLIO STUDY</text>
+    <text x="70" y="115" fill="#ffffff" font-size="34" font-weight="700">LEGACY COMMERCIAL BUILDING</text>
+    <text x="70" y="150" fill="#82d8ff" font-size="18">Concept floor plan · assumed 18.00 m × 12.00 m footprint · 2 storeys</text>
+    <rect x="1185" y="55" width="345" height="88" fill="none" stroke="#c9a65b" stroke-width="2"/>
+    <text x="1210" y="88" fill="#c9a65b" font-size="15" font-weight="700">PORTFOLIO ILLUSTRATION</text>
+    <text x="1210" y="116" fill="#ffffff" font-size="14">NOT FOR CONSTRUCTION</text>
+
+    <!-- Ground floor -->
+    <g transform="translate(70 225)">
+      <text x="0" y="-32" fill="#c9a65b" font-size="18" font-weight="700" letter-spacing="2">01 / GROUND FLOOR CONCEPT</text>
+      <rect x="0" y="0" width="680" height="455" fill="#0b2745" stroke="#8de3ff" stroke-width="5"/>
+      <rect x="0" y="0" width="170" height="320" fill="#0f3154" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="170" y="0" width="170" height="320" fill="#0f3154" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="340" y="0" width="170" height="320" fill="#0f3154" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="510" y="0" width="170" height="320" fill="#0f3154" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="0" y="320" width="680" height="75" fill="#0a203a" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="250" y="320" width="180" height="135" fill="#12395f" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="0" y="395" width="250" height="60" fill="#0a203a" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="430" y="395" width="250" height="60" fill="#0a203a" stroke="#8de3ff" stroke-width="3"/>
+      <g fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">
+        <text x="85" y="145">COMMERCIAL</text><text x="85" y="170">UNIT 01</text><text x="85" y="205" fill="#82d8ff" font-size="14">54 m²</text>
+        <text x="255" y="145">COMMERCIAL</text><text x="255" y="170">UNIT 02</text><text x="255" y="205" fill="#82d8ff" font-size="14">54 m²</text>
+        <text x="425" y="145">COMMERCIAL</text><text x="425" y="170">UNIT 03</text><text x="425" y="205" fill="#82d8ff" font-size="14">54 m²</text>
+        <text x="595" y="145">COMMERCIAL</text><text x="595" y="170">UNIT 04</text><text x="595" y="205" fill="#82d8ff" font-size="14">54 m²</text>
+        <text x="340" y="363" fill="#82d8ff" font-size="14">REAR SERVICE CORRIDOR</text>
+        <text x="340" y="387" fill="#82d8ff" font-size="13">WC / UTILITIES</text>
+        <text x="340" y="425">STAIR + CORE</text>
+        <text x="125" y="433" fill="#82d8ff" font-size="13">SERVICE / STORAGE</text>
+        <text x="555" y="433" fill="#82d8ff" font-size="13">SERVICE / STORAGE</text>
+      </g>
+      <g stroke="#c9a65b" stroke-width="4"><path d="M48 0v22M85 0v22M218 0v22M255 0v22M388 0v22M425 0v22M558 0v22M595 0v22"/></g>
+      <text x="340" y="495" fill="#82d8ff" font-size="15" text-anchor="middle">FRONTAGE / PARKING APRON</text>
+    </g>
+
+    <!-- Second floor -->
+    <g transform="translate(850 225)">
+      <text x="0" y="-32" fill="#c9a65b" font-size="18" font-weight="700" letter-spacing="2">02 / SECOND FLOOR CONCEPT</text>
+      <rect x="0" y="0" width="680" height="455" fill="#0b2745" stroke="#8de3ff" stroke-width="5"/>
+      <rect x="0" y="0" width="680" height="75" fill="#0a203a" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="0" y="75" width="430" height="280" fill="#0f3154" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="430" y="75" width="250" height="140" fill="#12395f" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="430" y="215" width="250" height="140" fill="#12395f" stroke="#8de3ff" stroke-width="3"/>
+      <rect x="0" y="355" width="680" height="100" fill="#0a203a" stroke="#8de3ff" stroke-width="3"/>
+      <g fill="#ffffff" font-size="18" font-weight="700" text-anchor="middle">
+        <text x="340" y="45" fill="#82d8ff" font-size="14">REAR SERVICE CORRIDOR</text>
+        <text x="215" y="190">OPEN COMMERCIAL /</text><text x="215" y="217">FUNCTION AREA</text><text x="215" y="250" fill="#82d8ff" font-size="14">Approx. 162 m²</text>
+        <text x="555" y="138">OFFICE /</text><text x="555" y="164">MEETING</text>
+        <text x="555" y="278">STAIR +</text><text x="555" y="304">SERVICE CORE</text>
+        <text x="340" y="410" fill="#82d8ff" font-size="15">COVERED BALCONY / FRONT GALLERY</text>
+      </g>
+      <g stroke="#c9a65b" stroke-width="4"><path d="M55 455v-24M120 455v-24M185 455v-24M250 455v-24M315 455v-24M380 455v-24M445 455v-24M510 455v-24M575 455v-24M640 455v-24"/></g>
+      <text x="340" y="495" fill="#82d8ff" font-size="15" text-anchor="middle">BALCONY FACING BURGOS STREET</text>
+    </g>
+
+    <!-- Dimensions and notes -->
+    <g fill="#b8d9ea" font-size="14">
+      <text x="70" y="780">ASSUMED GROSS FLOOR AREA</text><text x="70" y="810" fill="#ffffff" font-size="27" font-weight="700">432 m²</text>
+      <text x="330" y="780">ESTIMATE BASIS</text><text x="330" y="810" fill="#ffffff" font-size="20" font-weight="700">2 × 216 m² floor plates</text>
+      <text x="730" y="780">CONCEPT INTENT</text><text x="730" y="810" fill="#ffffff" font-size="20" font-weight="700">4 rental bays + flexible upper floor</text>
+    </g>
+    <line x1="70" y1="850" x2="1530" y2="850" stroke="#c9a65b" stroke-width="2"/>
+    <text x="70" y="892" fill="#ffffff" font-size="16" font-weight="700">IMPORTANT ASSUMPTION</text>
+    <text x="70" y="925" fill="#b8d9ea" font-size="15">Prepared from photographs and stated project data only. Dimensions, areas and room arrangements are illustrative estimating assumptions.</text>
+    <text x="70" y="954" fill="#b8d9ea" font-size="15">A measured survey and signed architectural/engineering drawings are required before construction, permitting or procurement.</text>
+    <text x="1510" y="955" text-anchor="end" fill="#c9a65b" font-size="15" font-weight="700">REV. P01 · 25 SEP 2026</text>
+  </g>
+</svg>
