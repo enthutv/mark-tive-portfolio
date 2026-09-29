@@ -13,5 +13,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="en"><body className={`${manrope.variable} ${inter.variable}`}>{children}</body></html>;
+  return <html lang="en"><head><script dangerouslySetInnerHTML={{__html:"if(!location.hash){history.scrollRestoration='manual';scrollTo(0,0)}"}}/></head><body className={`${manrope.variable} ${inter.variable}`}>{children}</body></html>;
 }

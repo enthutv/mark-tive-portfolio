@@ -4,6 +4,66 @@
   overflow: hidden;
 }
 
+/* Ubiquity BOQ case study */
+.ubiquity-case { border: 1px solid rgba(255,255,255,.14); border-radius: 28px; overflow: hidden; background: rgba(255,255,255,.035); }
+.ubiquity-hero { display: grid; grid-template-columns: .9fr 1.1fr; min-height: 500px; }
+.ubiquity-copy { padding: clamp(30px,4vw,52px); }
+.ubiquity-copy h3 { margin: 22px 0 16px; color: #fff; font-size: clamp(2.5rem,4vw,4.6rem); line-height: .98; letter-spacing: -.045em; }
+.ubiquity-copy>p { color: #bcc6d1; max-width: 580px; }
+.ubiquity-facts { margin-top: 34px; border-top: 1px solid rgba(255,255,255,.14); }
+.ubiquity-facts>div { display: grid; grid-template-columns: 90px 1fr; gap: 14px; padding: 13px 0; border-bottom: 1px solid rgba(255,255,255,.1); }
+.ubiquity-facts b { color: var(--gold); font-size: .7rem; letter-spacing: .08em; text-transform: uppercase; }
+.ubiquity-facts span { color: #dce2e8; font-size: .82rem; }
+.ubiquity-actions { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin-top: 26px; }
+.ubiquity-actions>a:last-child { display: inline-flex; align-items: center; gap: 9px; color: #e1e7ed; font-size: .82rem; font-weight: 700; }
+.ubiquity-actions svg { width: 17px; }
+.ubiquity-hero-image { min-height: 500px; }
+.ubiquity-hero-image img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ubiquity-values { display: grid; grid-template-columns: 1fr 1fr; border-top: 1px solid rgba(255,255,255,.14); border-bottom: 1px solid rgba(255,255,255,.14); }
+.ubiquity-values>div { padding: 28px clamp(24px,4vw,46px); display: flex; flex-direction: column; }
+.ubiquity-values>div+div { border-left: 1px solid rgba(255,255,255,.14); }
+.ubiquity-values span { color: var(--gold); font-size: .7rem; font-weight: 700; letter-spacing: .1em; }
+.ubiquity-values strong { color: #fff; font-size: clamp(2.4rem,4vw,4.3rem); line-height: 1.1; margin: 8px 0; }
+.ubiquity-values small { color: #9fabb8; }
+.ubiquity-evidence { background: #f7f8fa; color: var(--ink); }
+.ubiquity-schedules { display: grid; gap: 24px; padding: clamp(24px,3vw,42px); }
+.ubiquity-schedule-heading { max-width: 760px; }
+.ubiquity-schedule-heading>span { color: #8a6d31; font-size: .7rem; font-weight: 800; letter-spacing: .12em; }
+.ubiquity-schedule-heading h4 { margin: 9px 0 10px; font: 700 clamp(1.65rem,2.6vw,2.8rem)/1.1 var(--font-display); letter-spacing: -.035em; }
+.ubiquity-schedule-heading p { margin: 0; color: var(--muted); }
+.ubiquity-table { padding: clamp(24px,3vw,42px); min-width: 0; }
+.ubiquity-schedules .ubiquity-table { padding: 0; }
+.ubiquity-table .table-head { border-radius: 16px 16px 0 0; }
+.ubiquity-table table { background: #fff; }
+.ubiquity-note { margin: 0; padding-left: 12px; border-left: 2px solid var(--gold); color: var(--muted); font-size: .76rem; }
+.ubiquity-gallery { display: grid; grid-template-columns: 2fr 1fr 1fr; grid-template-rows: 320px; gap: 8px; padding: 8px; }
+.ubiquity-gallery img { width: 100%; height: 100%; min-height: 170px; object-fit: cover; border-radius: 14px; }
+@media(max-width:900px){.ubiquity-hero{grid-template-columns:1fr}.ubiquity-hero-image{min-height:420px}.ubiquity-gallery{grid-template-columns:1fr 1fr;grid-template-rows:280px 240px}.ubiquity-gallery img:first-child{grid-column:1/-1}.ubiquity-values{grid-template-columns:1fr}.ubiquity-values>div+div{border-left:0;border-top:1px solid rgba(255,255,255,.14)}}
+@media(max-width:680px){.ubiquity-case{border-radius:20px}.ubiquity-hero-image{min-height:300px}.ubiquity-facts>div{grid-template-columns:1fr;gap:3px}.ubiquity-actions{align-items:flex-start;flex-direction:column}.ubiquity-gallery{grid-template-columns:1fr;grid-template-rows:auto}.ubiquity-gallery img:first-child{grid-column:auto}.ubiquity-gallery img{height:240px}.ubiquity-gallery img:nth-child(2){height:360px}.ubiquity-schedules{padding:18px}.ubiquity-table table{min-width:860px}}
+
+/* IPI Bacolod BOQ case study */
+.ipi-case { overflow: hidden; color: #fff; background: #0b1c35; border: 1px solid rgba(255,255,255,.14); border-radius: 28px; }
+.ipi-hero { display: grid; grid-template-columns: .82fr 1.18fr; min-height: 480px; }
+.ipi-brand { display: flex; flex-direction: column; justify-content: center; align-items: center; gap: 28px; padding: 48px; color: #133a8f; background: #fff; }
+.ipi-brand img { width: min(100%,440px); height: auto; display: block; }
+.ipi-brand span { max-width: 320px; color: #57708f; font-size: .68rem; font-weight: 800; letter-spacing: .14em; text-align: center; }
+.ipi-copy { padding: clamp(32px,4vw,56px); background: radial-gradient(circle at 90% 15%,rgba(104,196,71,.14),transparent 38%); }
+.ipi-copy h3 { margin: 22px 0 16px; color: #fff; font-size: clamp(2.7rem,4vw,4.8rem); line-height: .98; letter-spacing: -.045em; }
+.ipi-copy>p { max-width: 650px; color: #bcc8d7; }
+.ipi-case .portfolio-kicker,.ipi-case .ubiquity-facts b { color: #83d269; }
+.ipi-values { display: grid; grid-template-columns: repeat(3,1fr); border-top: 1px solid rgba(255,255,255,.14); border-bottom: 1px solid rgba(255,255,255,.14); }
+.ipi-values>div { display: flex; flex-direction: column; padding: 28px clamp(22px,3vw,40px); }
+.ipi-values>div+div { border-left: 1px solid rgba(255,255,255,.14); }
+.ipi-values span { color: #83d269; font-size: .7rem; font-weight: 800; letter-spacing: .1em; }
+.ipi-values strong { margin: 8px 0; color: #fff; font-size: clamp(2.2rem,3.5vw,3.8rem); line-height: 1; }
+.ipi-values small { color: #9fabb8; }
+.ipi-evidence { display: grid; gap: 26px; padding: clamp(24px,3.5vw,46px); color: var(--ink); background: #f7f9fc; }
+.ipi-evidence .ubiquity-table { padding: 0; }
+.ipi-evidence .table-head { background: #133a8f; border-radius: 16px 16px 0 0; }
+.ipi-evidence .ubiquity-note { border-left-color: #68c447; }
+@media(max-width:900px){.ipi-hero{grid-template-columns:1fr}.ipi-brand{min-height:320px}.ipi-values{grid-template-columns:1fr}.ipi-values>div+div{border-left:0;border-top:1px solid rgba(255,255,255,.14)}}
+@media(max-width:680px){.ipi-case{border-radius:20px}.ipi-brand{min-height:240px;padding:32px}.ipi-copy{padding:28px}.ipi-evidence{padding:18px}.ipi-evidence .ubiquity-table table{min-width:860px}}
+
 .project-photo {
   position: relative;
   height: 238px;
