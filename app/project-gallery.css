@@ -257,7 +257,7 @@
 
 .portfolio-download svg { width: 18px; }
 
-.portfolio-cover a {
+.portfolio-cover-static {
   position: relative;
   display: block;
   padding: 12px;
@@ -301,9 +301,9 @@
   border-top: 1px solid rgba(11, 23, 40, 0.15);
 }
 
-.portfolio-preview a { color: inherit; text-decoration: none; }
+.portfolio-preview-static { color: inherit; text-decoration: none; }
 
-.portfolio-preview a > div {
+.portfolio-preview-static > div {
   position: relative;
   height: 150px;
   overflow: hidden;
@@ -318,7 +318,7 @@
   transition: transform 0.5s ease;
 }
 
-.portfolio-preview a > div span {
+.portfolio-preview-static > div span {
   position: absolute;
   inset: auto 10px 10px auto;
   padding: 6px 9px;
@@ -330,8 +330,8 @@
   transition: opacity 0.25s ease;
 }
 
-.portfolio-preview a:hover img { transform: scale(1.035); }
-.portfolio-preview a:hover > div span { opacity: 1; }
+.portfolio-preview-static:hover img { transform: scale(1.035); }
+.portfolio-preview-static:hover > div span { opacity: 1; }
 
 .portfolio-preview b,
 .portfolio-preview small { display: block; }
@@ -367,10 +367,10 @@
   .work-portfolio-feature { margin-top: 38px; padding: 20px; }
   .portfolio-facts div { grid-template-columns: 1fr; gap: 4px; }
   .portfolio-preview-grid { grid-template-columns: 1fr; }
-  .portfolio-preview a > div { height: 190px; }
+  .portfolio-preview-static > div { height: 190px; }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .portfolio-cover a { transform: none; }
+  .portfolio-cover-static { transform: none; }
   .portfolio-preview img { transition: none; }
 }

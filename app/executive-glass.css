@@ -201,8 +201,8 @@ h2 {
   box-shadow: var(--shadow-deep);
   overflow: hidden;
 }
-.portfolio-cover a,
-.portfolio-preview a > div { border-radius: 18px; }
+.portfolio-cover-static,
+.portfolio-preview-static > div { border-radius: 18px; }
 .portfolio-preview img { border-radius: 17px; }
 .legacy-main,
 .legacy-summary,
