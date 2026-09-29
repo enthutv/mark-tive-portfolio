@@ -64,6 +64,43 @@
 @media(max-width:900px){.ipi-hero{grid-template-columns:1fr}.ipi-brand{min-height:320px}.ipi-values{grid-template-columns:1fr}.ipi-values>div+div{border-left:0;border-top:1px solid rgba(255,255,255,.14)}}
 @media(max-width:680px){.ipi-case{border-radius:20px}.ipi-brand{min-height:240px;padding:32px}.ipi-copy{padding:28px}.ipi-evidence{padding:18px}.ipi-evidence .ubiquity-table table{min-width:860px}}
 
+/* Megaworld Two Regis BOQ and progress billing */
+.regis-case { overflow: hidden; color: #fff; background: #0b1829; border: 1px solid rgba(255,255,255,.14); border-radius: 28px; }
+.regis-hero { display: grid; grid-template-columns: 1.1fr .9fr; min-height: 510px; }
+.regis-image { position: relative; min-height: 510px; overflow: hidden; }
+.regis-image::after { content:""; position:absolute; inset:0; background:linear-gradient(180deg,transparent 52%,rgba(5,13,24,.88)); }
+.regis-image img { width:100%; height:100%; object-fit:cover; display:block; }
+.regis-image>div { position:absolute; z-index:1; left:clamp(28px,4vw,50px); bottom:38px; display:flex; flex-direction:column; }
+.regis-image span { color:#e1c271; font-size:.7rem; font-weight:800; letter-spacing:.14em; }
+.regis-image b { margin-top:7px; font:700 clamp(2.7rem,4vw,4.8rem)/.95 var(--font-display); }
+.regis-copy { padding:clamp(32px,4vw,56px); align-self:center; }
+.regis-copy h3 { margin:18px 0; color:#fff; font-size:clamp(2.7rem,4vw,4.8rem); line-height:.98; letter-spacing:-.045em; }
+.regis-copy>p { color:#bdc7d3; }
+.regis-packages { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid rgba(255,255,255,.14); }
+.regis-packages article { padding:clamp(28px,4vw,48px); }
+.regis-packages article+article { border-left:1px solid rgba(255,255,255,.14); }
+.regis-packages article>span { color:var(--gold); font-size:.7rem; font-weight:800; letter-spacing:.1em; }
+.regis-packages article>strong { display:block; margin:10px 0 18px; font-size:clamp(2.5rem,4vw,4.5rem); line-height:1; }
+.regis-progress { position:relative; height:38px; margin-bottom:22px; overflow:hidden; background:rgba(255,255,255,.08); border-radius:8px; }
+.regis-progress i { position:absolute; inset:0 auto 0 0; background:linear-gradient(90deg,#9a7530,#d9b657); }
+.regis-progress b { position:relative; z-index:1; display:flex; align-items:center; height:100%; padding:0 13px; font-size:.75rem; }
+.regis-packages dl { display:grid; grid-template-columns:repeat(3,1fr); margin:0; }
+.regis-packages dl>div { padding:14px 0; border-top:1px solid rgba(255,255,255,.12); }
+.regis-packages dt { color:#8795a5; font-size:.68rem; text-transform:uppercase; }
+.regis-packages dd { margin:5px 0 0; font-size:.84rem; font-weight:700; }
+.regis-actions { display:flex; align-items:center; flex-wrap:wrap; gap:18px; margin-top:24px; }
+.regis-actions>a:last-child { display:inline-flex; align-items:center; gap:8px; color:#e2e7ed; font-size:.8rem; font-weight:700; }
+.regis-actions svg { width:17px; }
+.regis-evidence { display:grid; gap:26px; padding:clamp(24px,3.5vw,46px); color:var(--ink); background:#f7f8fa; }
+.regis-table .table-head { border-radius:16px 16px 0 0; }
+.regis-table table { width:100%; background:#fff; border-collapse:collapse; }
+.regis-table th,.regis-table td { padding:14px 16px; border-bottom:1px solid #e1e5e9; text-align:left; }
+.regis-table th { color:#718093; font-size:.68rem; letter-spacing:.08em; text-transform:uppercase; }
+.regis-table td { font-size:.82rem; }
+.regis-table .numeric { text-align:right; font-variant-numeric:tabular-nums; }
+@media(max-width:900px){.regis-hero{grid-template-columns:1fr}.regis-image{min-height:420px}.regis-packages{grid-template-columns:1fr}.regis-packages article+article{border-left:0;border-top:1px solid rgba(255,255,255,.14)}}
+@media(max-width:680px){.regis-case{border-radius:20px}.regis-image{min-height:310px}.regis-packages dl{grid-template-columns:1fr}.regis-packages dl>div{display:flex;justify-content:space-between}.regis-evidence{padding:18px}.regis-table table{min-width:720px}}
+
 .project-photo {
   position: relative;
   height: 238px;
