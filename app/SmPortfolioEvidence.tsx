@@ -16,12 +16,7 @@ const evidence = [
 ];
 
 export default function SmPortfolioEvidence() {
-  return <section className="sm-evidence" aria-labelledby="sm-evidence-title">
-    <div className="sm-evidence-heading">
-      <span>PORTFOLIO REQUIREMENT EVIDENCE</span>
-      <h4 id="sm-evidence-title">Complete project evidence, presented directly on the page.</h4>
-      <p>No separate viewer or page navigation is required. Each document is labelled by submission type and displayed at a readable width below.</p>
-    </div>
+  return <section className="sm-evidence" aria-label="SM Iloilo portfolio evidence">
     <div className="sm-evidence-list">
       {evidence.map((item, index) => <article className={`sm-evidence-item${item.featured ? ' sm-evidence-item-featured' : ''}`} key={item.title}>
         <header>
