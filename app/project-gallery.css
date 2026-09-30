@@ -357,6 +357,92 @@
   background: rgba(201, 166, 91, 0.35);
 }
 
+.sm-evidence {
+  margin-top: clamp(42px, 6vw, 76px);
+  padding-top: clamp(28px, 4vw, 48px);
+  border-top: 1px solid rgba(11, 23, 40, 0.16);
+}
+
+.sm-evidence-heading { max-width: 820px; }
+.sm-evidence-heading > span,
+.sm-evidence-item header span {
+  color: #806313;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+.sm-evidence-heading h4 {
+  margin: 8px 0 10px;
+  font-size: clamp(1.55rem, 3vw, 2.65rem);
+  line-height: 1.08;
+}
+.sm-evidence-heading p {
+  margin: 0;
+  color: #5f6b79;
+}
+.sm-evidence-list {
+  display: grid;
+  gap: clamp(34px, 6vw, 72px);
+  margin-top: 34px;
+}
+.sm-evidence-item {
+  scroll-margin-top: 24px;
+}
+.sm-evidence-item header {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  padding: 0 2px 14px;
+}
+.sm-evidence-item h5 {
+  margin: 6px 0 2px;
+  font-size: clamp(1.15rem, 2vw, 1.55rem);
+}
+.sm-evidence-item header p {
+  margin: 0;
+  color: #657083;
+  font-size: 0.84rem;
+}
+.sm-evidence-item header > b {
+  flex: 0 0 auto;
+  color: #8b7440;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+}
+.sm-evidence-sheet {
+  overflow: hidden;
+  padding: clamp(8px, 1.5vw, 18px);
+  background: #fff;
+  border: 1px solid rgba(11, 23, 40, 0.14);
+  box-shadow: 0 18px 48px rgba(11, 23, 40, 0.1);
+}
+.sm-evidence-sheet img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.sm-evidence-item-featured .sm-evidence-sheet {
+  position: relative;
+  padding: 0;
+  border-color: rgba(201, 166, 91, 0.65);
+}
+.sm-evidence-item-featured .sm-evidence-sheet::after {
+  content: "";
+  position: absolute;
+  right: 1.8%;
+  bottom: 3.6%;
+  width: 8%;
+  height: 13%;
+  background: #fff;
+}
+
+@media (max-width: 680px) {
+  .sm-evidence-item header { align-items: flex-start; }
+  .sm-evidence-item header > b { margin-top: 4px; }
+  .sm-evidence-list { gap: 40px; }
+}
+
 @media (max-width: 860px) {
   .work-portfolio-intro { grid-template-columns: 1fr; }
   .portfolio-cover { max-width: 620px; }
