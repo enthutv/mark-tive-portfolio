@@ -19,7 +19,23 @@
 .career-scope h3{margin:0 0 14px;font-size:1.1rem}
 .career-scope div div{display:flex;flex-wrap:wrap;gap:8px}
 .career-scope span{padding:6px 9px;border:1px solid rgba(201,166,91,.4);color:#dce2e8;font-size:.7rem}
+.career-scope .professional-tool-panel{background:linear-gradient(135deg,rgba(201,166,91,.16),rgba(255,255,255,.035));border-color:rgba(201,166,91,.5)}
+.professional-tool-panel h3{color:var(--gold)}
+.professional-tool-panel span{background:rgba(7,17,30,.5);border-color:rgba(201,166,91,.65);font-weight:700}
+.professional-stack{margin-top:18px;border:1px solid rgba(201,166,91,.5);background:linear-gradient(135deg,rgba(201,166,91,.14),rgba(255,255,255,.025));padding:30px}
+.professional-stack-head{display:flex;justify-content:space-between;align-items:end;gap:30px;padding-bottom:22px;border-bottom:1px solid rgba(255,255,255,.14)}
+.professional-stack-head>span{color:var(--gold);font-size:.68rem;font-weight:800;letter-spacing:.13em}
+.professional-stack-head h3{max-width:650px;margin:0;text-align:right;font-size:1.35rem}
+.professional-stack-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:0;margin-top:22px}
+.professional-stack-grid>div{padding:4px 20px;border-right:1px solid rgba(255,255,255,.12)}
+.professional-stack-grid>div:first-child{padding-left:0}
+.professional-stack-grid>div:last-child{border-right:0;padding-right:0}
+.professional-stack-grid b{display:block;color:var(--gold);font-size:.65rem;letter-spacing:.09em;margin-bottom:13px}
+.professional-stack-grid>div>div{display:flex;flex-direction:column;gap:8px}
+.professional-stack-grid span{color:#e4e9ee;font-size:.78rem;font-weight:600}
+@media(max-width:900px){.professional-stack-grid{grid-template-columns:1fr 1fr;gap:24px}.professional-stack-grid>div,.professional-stack-grid>div:first-child,.professional-stack-grid>div:last-child{padding:0;border:0}.professional-stack-head{align-items:start;flex-direction:column}.professional-stack-head h3{text-align:left}}
 @media(max-width:680px){.career-role{grid-template-columns:1fr;gap:14px}.career-role-index{flex-direction:row;align-items:center;justify-content:space-between}.career-role-main>div,.career-scope{grid-template-columns:1fr}}
+@media(max-width:580px){.professional-stack{padding:24px}.professional-stack-grid{grid-template-columns:1fr}.professional-stack-grid>div{padding-bottom:18px;border-bottom:1px solid rgba(255,255,255,.1)}}
 .read-more {
   margin-top: 20px;
   padding-top: 16px;
